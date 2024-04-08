@@ -1,0 +1,29 @@
+-- import: fifthtry.github.io/today-has-been-ui/components/header
+-- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
+
+-- component page:
+optional caption title:
+children children:
+ds.flush flush: to-header
+boolean hide-header: false
+boolean theme-toggle: true
+ud.user-data user-data:
+
+-- ds.page: $page.title
+	
+	-- header.header: $page.title
+	if: { !page.hide-header }
+	user-data: $page.user-data
+	
+	-- ds.section-column:
+	inset: $ds.spaces.inset-wide.medium
+	inset if { page.hide-header }: $ds.spaces.inset-tall.large
+	content: $page.children
+	flush: $page.flush
+	margin: $ds.spaces.vertical-gap.zero
+	
+	-- end: ds.section-column
+	
+-- end: ds.page
+
+-- end: page

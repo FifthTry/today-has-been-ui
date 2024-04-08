@@ -1,0 +1,110 @@
+-- import: fifthtry.github.io/today-has-been-ui/components/page as p
+-- import: fifthtry.github.io/today-has-been-ui/components/tabs as tab
+-- import: fifthtry.github.io/today-has-been-ui/components/blog-post as blog
+-- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
+-- import: fifthtry.github.io/today-has-been-ui/scenarios/logged-in-home as lg
+
+-- component page:
+ud.user-data user-data:
+
+-- p.page: Today Has Been
+user-data: $page.user-data
+
+-- ds.column:
+if: { page.user-data.is-logged-in }
+
+-- tab.tab-button:
+cta-text-1: Older
+cta-text-2: Random
+cta-text-3: Newer
+cta-link-1: /
+cta-link-2: /
+cta-link-3: /
+
+-- blog.blog: Friday, Apr 13, 2012
+
+-- blog.blog-content:
+time: 8:05 pm
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud
+
+-- blog.blog-content:
+time: 8:06 pm
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem
+
+-- blog.blog-images:
+image: $lg.image-src
+
+-- end: blog.blog
+
+-- end: ds.column
+
+-- ds.section-column:
+if: { !page.user-data.is-logged-in }
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.heading-hero: Lorem ipsum dolor sit amet, consectetur adipiscing
+align: center
+
+-- ds.copy-regular:
+align: center
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+enim ad minim veniam, quis nostrud
+
+-- ds.copy-regular:
+align: center
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+veniam, quis nostrud
+
+-- ds.secondary-button: Say "Hi" on WhatsApp
+link: /
+size: large
+
+-- ds.heading-medium: Pricing
+
+-- ds.copy-regular:
+align: center
+
+Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem
+ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem ipsum 
+
+-- ds.copy-regular:
+align: center
+
+Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua
+
+/-- ds.heading-large: What are people saying
+align: center
+
+/-- ds.heading-large: Only $5 per month
+align: center
+
+-- end: ds.section-column
+
+-- end: p.page
+
+-- end: page
+

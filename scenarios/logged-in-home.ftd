@@ -1,0 +1,17 @@
+-- import: fifthtry.github.io/today-has-been-ui/page/homepage
+-- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
+-- import: fifthtry.github.io/today-has-been-ui/scenarios/john-doe
+-- import: fifthtry.github.io/today-has-been-ui/record/images as il
+
+-- homepage.page:
+user-data: $john-doe.jd
+
+-- il.image-list list image-src:
+
+-- il.image-list:
+src: $assets.files.assets.image.jpg
+
+-- il.image-list:
+src: $assets.files.assets.images.png
+
+-- end: image-src
