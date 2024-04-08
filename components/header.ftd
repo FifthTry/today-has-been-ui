@@ -1,0 +1,35 @@
+-- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
+
+-- component header:
+caption title:
+ud.user-data user-data:
+	
+		-- ds.section-row:
+		inset: $ds.spaces.inset-square.medium
+		;;spacing: $ds.spaces.horizontal-gap.extra-extra-large
+		border: $ds.borders.bottom.small
+		radius: $ds.radius.zero
+		margin: $ds.spaces.vertical-gap.large
+		align-content: right
+
+		-- ds.heading-medium: $header.title
+		width: fill-container
+		align: center
+
+		-- ds.row:
+		width.fixed.px: 2
+		align-content: right
+		
+			-- ds.primary-button: Logout
+			if: { header.user-data.is-logged-in }
+			link: /
+
+			-- ds.primary-button: Login
+			if: { !header.user-data.is-logged-in }
+			link: /
+
+			-- end: ds.row
+
+		-- end: ds.section-row
+
+-- end: header
