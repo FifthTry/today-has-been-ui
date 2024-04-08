@@ -1,0 +1,70 @@
+-- import: fifthtry.github.io/today-has-been-ui/record/images as image
+
+-- component blog:
+caption day:
+children wrapper:
+
+-- ds.section-column:
+inner-background.solid: $ds.colors.background.step-1
+inset: $ds.spaces.inset-square.medium
+align-content: center
+
+-- ds.heading-tiny: $blog.day
+
+-- ds.column:
+border: $ds.borders.top.small
+radius: $ds.radius.zero
+border-color: $ds.colors.accent.primary
+content: $blog.wrapper
+inset: $ds.spaces.inset-tall.zero-medium
+spacing: $ds.spaces.vertical-gap.large
+align-content: left
+
+-- end: ds.column
+
+-- end: ds.section-column
+
+-- end: blog
+
+
+
+
+
+-- component blog-content:
+optional caption title:
+body body:
+string time:
+
+-- ds.column:
+align-content: left
+
+-- ds.copy-regular: $blog-content.body
+color: $ds.colors.text-strong
+
+-- ds.copy-small: $blog-content.time
+
+-- end: ds.column
+
+-- end: blog-content
+
+
+
+
+
+
+
+
+-- component blog-images:
+image.image-list list image:
+
+-- ds.column:
+align-content: left
+
+-- ftd.image:
+for: $obj in $blog-images.image
+src: $obj.src
+max-width: fill-container
+
+-- end: ds.column
+
+-- end: blog-images
