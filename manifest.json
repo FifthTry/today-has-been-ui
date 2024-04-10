@@ -262,7 +262,7 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "4DA22B1B757EE0ECA302201F32A240FAE63F6B3633BA8BF9D7AEC676C4C52709",
+      "checksum": "B1994332A4596BF1913BE9A48FECB7AC34CE0F821F9228A250A7F5FD89E8DA1D",
       "size": 11570
     },
     "page/homepage.ftd": {
@@ -312,5 +312,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/today-has-been-ui/zip/refs/heads/main",
-  "checksum": "EA041F06C50D42FE30B47BD9D44655E181FA18A57B65485E5718FCB2581E00AF"
+  "checksum": "BDBC95445B581DC8405186C8AF75A57CF48C48D11F74F386F40C600DBB8E4DE5"
 }
