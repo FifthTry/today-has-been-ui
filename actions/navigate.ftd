@@ -1,4 +1,4 @@
--- optional string $active-file-preview-url: https://fastn-community.github.io/design-system/components/alert/
+-- optional string $active-file-preview-url: https://fifthtry.github.io/today-has-been-ui/scenarios/logged-in-home
 -- optional string $active-file-content: content
 
 -- void submit(default_file, fileurl):

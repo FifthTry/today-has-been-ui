@@ -17,8 +17,8 @@
     },
     "actions/navigate.ftd": {
       "name": "actions/navigate.ftd",
-      "checksum": "E25C7FC31D1329F0A0D86A26233BA12A3715EE8C584275BD5FDE2C692EE0E756",
-      "size": 411
+      "checksum": "DDC726EA053EED76CC7D5B3C33C590FD1EF71D80A93C19E074FFB47BC7B419E1",
+      "size": 415
     },
     "assets/arrow-down-dark.svg": {
       "name": "assets/arrow-down-dark.svg",
@@ -257,8 +257,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "AFC265280D8B526BA19163B5FE02A839CC3DFEA2B757213D35FF0BBD9D3B565E",
-      "size": 11452
+      "checksum": "EE612BC22BF9480DA54CA8D978FF32190A2F8A171244647AD7CADF4ED4FCF8E2",
+      "size": 11474
     },
     "page/homepage.ftd": {
       "name": "page/homepage.ftd",
@@ -302,5 +302,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/today-has-been-ui/zip/refs/heads/main",
-  "checksum": "BA6AF8482D2B0BB06C9DAF5509DC3AB8494AE53E9CBB4E3AB0AAEDD6D1F7FFE6"
+  "checksum": "19BE060AEB963D66355153123D59AECD856621F94F4E837E6F7A3B6149DFA626"
 }
