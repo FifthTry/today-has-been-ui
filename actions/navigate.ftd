@@ -9,5 +9,3 @@ js: $assets.files.assets.js.update-source.js
 
 url = fileurl;
 update_source_code(url)
-
-;;callAlert("Navigating to file:" + fileurl + ", default file: " + default_file)
