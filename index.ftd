@@ -19,8 +19,8 @@ list-of-tab: $sr.tab
 $processor$: pr.toc
 
 - Website Pages:
-  - Logged in Home page: /scenarios/logged-in-home/
-  - Logged out Home page: /scenarios/logged-out-home/
+  - Logged in Home page: /scenarios/logged-in-home
+  - Logged out Home page: /scenarios/logged-out-home
 
 
 
