@@ -17,8 +17,8 @@
     },
     "actions/navigate.ftd": {
       "name": "actions/navigate.ftd",
-      "checksum": "DDC726EA053EED76CC7D5B3C33C590FD1EF71D80A93C19E074FFB47BC7B419E1",
-      "size": 415
+      "checksum": "36F948E7464B6AF4BD5EC76FE86F2D6BF504E13C4D649F9BC1FBD167DF4A4C6B",
+      "size": 446
     },
     "assets/arrow-down-dark.svg": {
       "name": "assets/arrow-down-dark.svg",
@@ -150,6 +150,11 @@
       "checksum": "A227CF22E798ACFB2D01B6352FC22A28047444F028AF05440C6CE6F9499C0EDF",
       "size": 15494
     },
+    "assets/js/update-source.js": {
+      "name": "assets/js/update-source.js",
+      "checksum": "C63508F45BA81453E5BEE1DA1C190EE1FB2B9030DB053426C47C612CF2FFB984",
+      "size": 1240
+    },
     "assets/light-mode-dark.svg": {
       "name": "assets/light-mode-dark.svg",
       "checksum": "BE5E29ACD87CA1F31EAD97AC03B2C4AD2A76A0D1DECC0E3BA974FF7411E2E7E3",
@@ -257,8 +262,8 @@
     },
     "index.ftd": {
       "name": "index.ftd",
-      "checksum": "EE612BC22BF9480DA54CA8D978FF32190A2F8A171244647AD7CADF4ED4FCF8E2",
-      "size": 11474
+      "checksum": "D46CA22F8C1783A55FD8BB0FE71683470C3A3630164C0EA1BC51F8182F611A39",
+      "size": 11572
     },
     "page/homepage.ftd": {
       "name": "page/homepage.ftd",
@@ -299,8 +304,13 @@
       "name": "vercel.json",
       "checksum": "0A911690620506F0D47EBA9F49D46DCD57D84C7D6A3BEA93BF0875DD6B374089",
       "size": 181
+    },
+    "web-components/index.ftd": {
+      "name": "web-components/index.ftd",
+      "checksum": "928AFEA7B79D3808094A94B517DAC92B22E62EFD6DFF30C72470F9A2178CE0F8",
+      "size": 78
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/today-has-been-ui/zip/refs/heads/main",
-  "checksum": "19BE060AEB963D66355153123D59AECD856621F94F4E837E6F7A3B6149DFA626"
+  "checksum": "B021642EFC7D60C81FEAF9A563762432D3F88B323BB87AB2CE7ECFF7C88B4550"
 }
