@@ -17,8 +17,8 @@
     },
     "actions/navigate.ftd": {
       "name": "actions/navigate.ftd",
-      "checksum": "36F948E7464B6AF4BD5EC76FE86F2D6BF504E13C4D649F9BC1FBD167DF4A4C6B",
-      "size": 446
+      "checksum": "F73ECCFE9896B6AC59AABC055042EB201B8164379EE9A20523F28A4E6753D30C",
+      "size": 364
     },
     "assets/arrow-down-dark.svg": {
       "name": "assets/arrow-down-dark.svg",
@@ -152,8 +152,8 @@
     },
     "assets/js/update-source.js": {
       "name": "assets/js/update-source.js",
-      "checksum": "C63508F45BA81453E5BEE1DA1C190EE1FB2B9030DB053426C47C612CF2FFB984",
-      "size": 1240
+      "checksum": "CC45864A9D6597E5573F02B586E74C231314CA8A6C46072866CFA098315B70CE",
+      "size": 1251
     },
     "assets/light-mode-dark.svg": {
       "name": "assets/light-mode-dark.svg",
@@ -312,5 +312,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/today-has-been-ui/zip/refs/heads/main",
-  "checksum": "9C8A51429B8906F4283D6345C45ACE8869444DB17BDF1945D5DF73C319C8DC3C"
+  "checksum": "EA041F06C50D42FE30B47BD9D44655E181FA18A57B65485E5718FCB2581E00AF"
 }
