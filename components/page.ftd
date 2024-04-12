@@ -6,7 +6,6 @@ optional caption title:
 children children:
 ds.flush flush: to-header
 boolean hide-header: false
-boolean theme-toggle: false
 ud.user-data user-data:
 
 -- ds.page: $page.title
