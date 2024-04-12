@@ -1,8 +1,5 @@
 -- import: fifthtry.github.io/today-has-been-ui/components/page as p
--- import: fifthtry.github.io/today-has-been-ui/components/tabs as tab
--- import: fifthtry.github.io/today-has-been-ui/components/blog-post as blog
 -- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
--- import: fifthtry.github.io/today-has-been-ui/scenarios/logged-in-home as lg
 
 -- component page:
 ud.user-data user-data:
@@ -11,98 +8,51 @@ ud.user-data user-data:
 user-data: $page.user-data
 
 -- ds.column:
-if: { page.user-data.is-logged-in }
+width.fixed.px: 500
+width if { ftd.device == "mobile" }: fill-container
+inset: $ds.spaces.inset-wide.medium
+spacing: $ds.spaces.vertical-gap.extra-large
+align-content: left
 
--- tab.tab-button:
-cta-text-1: Older
-cta-text-2: Random
-cta-text-3: Newer
-cta-link-1: /
-cta-link-2: /
-cta-link-3: /
+-- ds.heading-hero: Effortlessly build your daily journaling habit
+style: extra-bold
+align: center
 
--- blog.blog: Friday, Apr 13, 2012
+-- ds.copy-large:
+align: center
 
--- blog.blog-content:
-time: 8:05 pm
+We send you a friendly WhatsApp message asking "How did your day go?". Your
+replies are stored in your personal journal. No app to download and learn. No
+pressure.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud
+And, to fill you up with warm fuzzy nostalgia every day, we also show you a
+random entry from the past - right there in WhatsApp!
 
--- blog.blog-content:
-time: 8:06 pm
+-- ds.column:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud Lorem
+-- ds.secondary-button: Say "Hi" on WhatsApp
+link: storybook/homepage/
+size: large
 
--- blog.blog-images:
-image: $lg.image-src
+-- ds.heading-small: Pricing
+style: extra-bold
 
--- end: blog.blog
+-- ds.copy-regular:
+align: center
+
+Only $5 for the monthly subscription or $50 for the annual one (i.e. 2 months
+free). Both plans come with 7 days free trial.
+
+You'll get the Stripe payment link in WhatsApp. Cancel anytime. No questions
+asked.
 
 -- end: ds.column
 
--- ds.section-column:
-if: { !page.user-data.is-logged-in }
-spacing: $ds.spaces.vertical-gap.large
+-- ds.heading-small: What are people saying
 
--- ds.heading-hero: Lorem ipsum dolor sit amet, consectetur adipiscing
-align: center
+-- ds.heading-small: Only $5 per month
 
--- ds.copy-regular:
-align: center
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-minim veniam, quis nostrud Lorem ipsum dolor sit amet, consectetur adipiscing
-elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-enim ad minim veniam, quis nostrud
-
--- ds.copy-regular:
-align: center
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-veniam, quis nostrud
-
--- ds.secondary-button: Say "Hi" on WhatsApp
-link: /
-size: large
-
--- ds.heading-medium: Pricing
-
--- ds.copy-regular:
-align: center
-
-Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud Lorem
-ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
-nostrud Lorem ipsum 
-
--- ds.copy-regular:
-align: center
-
-Dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua
-
-/-- ds.heading-large: What are people saying
-align: center
-
-/-- ds.heading-large: Only $5 per month
-align: center
-
--- end: ds.section-column
+-- end: ds.column
 
 -- end: p.page
 

@@ -5,14 +5,15 @@ caption title:
 ud.user-data user-data:
 	
 		-- ds.section-row:
-		inset: $ds.spaces.inset-square.medium
+		inset: $ds.spaces.inset-wide.small
 		;;spacing: $ds.spaces.horizontal-gap.extra-extra-large
 		border: $ds.borders.bottom.small
 		radius: $ds.radius.zero
 		margin: $ds.spaces.vertical-gap.large
 		align-content: right
 
-		-- ds.heading-medium: $header.title
+		-- ds.heading-small: $header.title
+		style: bold
 		width: fill-container
 		align: center
 
@@ -20,13 +21,13 @@ ud.user-data user-data:
 		width.fixed.px: 2
 		align-content: right
 		
-			-- ds.primary-button: Logout
+			-- ds.copy-small: Logout
 			if: { header.user-data.is-logged-in }
-			link: /
+			link: storybook/dashboard/
 
-			-- ds.primary-button: Login
+			-- ds.copy-small: Login
 			if: { !header.user-data.is-logged-in }
-			link: /
+			link: storybook/homepage/
 
 			-- end: ds.row
 

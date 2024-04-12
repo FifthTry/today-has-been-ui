@@ -1,11 +1,15 @@
--- optional string $active-file-preview-url: https://fifthtry.github.io/today-has-been-ui/scenarios/logged-in-home
+-- import: fastn-community.github.io/design-system/assets as dassets
+
+-- optional string $active-file-preview-url: https://fifthtry.github.io/today-has-been-ui/storybook/dashboard/
 -- optional string $active-file-content: content
+-- string $active-title: Website Pages
+-- string $active-sub-title: Dashboard
 
 -- void submit(default_file, fileurl):
 string default_file:
 string fileurl:
-string $url: $active-file-preview-url
-js: $assets.files.assets.js.update-source.js
+js: $dassets.files.assets.js.update-source.js
 
-url = fileurl;
-update_source_code(url)
+update_source_code(fileurl, "fifthtry.github.io/today-has-been-ui/actions/navigate")
+
+;;callAlert("Navigating to file:" + fileurl + ", default file: " + default_file)
