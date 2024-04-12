@@ -7,7 +7,6 @@ favicon: /-/fifthtry.github.io/today-has-been-ui/favicon.ico
 provided-via: fifthtry.github.io/today-has-been-ui/ds
 
 -- fastn.dependency: fastn-community.github.io/roboto-typography
--- fastn.dependency: fastn-community.github.io/dark-flame-cs
 
 -- fastn.auto-import: fifthtry.github.io/today-has-been-ui/ds
 -- fastn.auto-import: fifthtry.github.io/today-has-been-ui/assets
