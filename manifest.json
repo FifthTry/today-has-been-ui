@@ -17,8 +17,8 @@
     },
     "actions/navigate.ftd": {
       "name": "actions/navigate.ftd",
-      "checksum": "D49D31E2F4830A97FE4A01D034FC4C23E40B2E8C94D35EE1E415D80E7FF4839A",
-      "size": 599
+      "checksum": "EF61BC43AFB57DD339F3362BF4C95C95984427AF85BF24DEA0E738C8D949001E",
+      "size": 554
     },
     "assets/image-2.png": {
       "name": "assets/image-2.png",
@@ -47,8 +47,8 @@
     },
     "components/page.ftd": {
       "name": "components/page.ftd",
-      "checksum": "D31F12F76F26F25AE0AA5DAF3A195742DFA98753E55A65D93EA4B713CD2DA385",
-      "size": 684
+      "checksum": "67EED39BC707985B584745B46076572CB968D68D5050E1A96DD60A021AC10D74",
+      "size": 656
     },
     "ds.ftd": {
       "name": "ds.ftd",
@@ -82,8 +82,8 @@
     },
     "site-data.ftd": {
       "name": "site-data.ftd",
-      "checksum": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855",
-      "size": 0
+      "checksum": "8CA5F3B22412292B71C23872EFC3EB1CDD29C271EEC7C7B1D9182C2D63352BA8",
+      "size": 56
     },
     "storybook/dashboard.ftd": {
       "name": "storybook/dashboard.ftd",
@@ -112,5 +112,5 @@
     }
   },
   "zip_url": "https://codeload.github.com/fifthtry/today-has-been-ui/zip/refs/heads/main",
-  "checksum": "365FFE6785A5584DED4F077E1732AAA74A161BDCBE744A97DB55F93BC5586868"
+  "checksum": "C5DE3E7DA864264D416C551ED7C65F21B6314495B90ACD6AD086FB89737CC1C7"
 }

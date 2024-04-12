@@ -1,6 +1,6 @@
 -- import: fastn-community.github.io/design-system/assets as dassets
 
--- optional string $active-file-preview-url: https://fifthtry.github.io/today-has-been-ui/storybook/dashboard/
+-- optional string $active-file-preview-url: storybook/dashboard/
 -- optional string $active-file-content: content
 -- string $active-title: Website Pages
 -- string $active-sub-title: Dashboard
