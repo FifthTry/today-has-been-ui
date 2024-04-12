@@ -1,28 +1,30 @@
--- import: fifthtry.github.io/today-has-been-ui/record/images as image
 
 -- component blog:
 caption day:
 children wrapper:
 
--- ds.section-column:
-inner-background.solid: $ds.colors.background.step-1
+-- ds.column:
+background.solid: $ds.colors.background.step-1
 inset: $ds.spaces.inset-square.medium
-align-content: center
+width.fixed.px: 500
+width if { ftd.device == "mobile" }: fill-container
+spacing: $ds.spaces.vertical-gap.small
 
 -- ds.heading-tiny: $blog.day
+style: bold
 
 -- ds.column:
 border: $ds.borders.top.small
 radius: $ds.radius.zero
-border-color: $ds.colors.accent.primary
+border-color: $ds.colors.custom.one
 content: $blog.wrapper
-inset: $ds.spaces.inset-tall.zero-medium
+inset: $ds.spaces.inset-square.medium
 spacing: $ds.spaces.vertical-gap.large
 align-content: left
 
 -- end: ds.column
 
--- end: ds.section-column
+-- end: ds.column
 
 -- end: blog
 
@@ -34,37 +36,29 @@ align-content: left
 optional caption title:
 body body:
 string time:
+optional ftd.image-src img-1:
+optional ftd.image-src img-2:
 
 -- ds.column:
 align-content: left
+spacing: $ds.spaces.vertical-gap.small
 
 -- ds.copy-regular: $blog-content.body
 color: $ds.colors.text-strong
 
 -- ds.copy-small: $blog-content.time
+color: $ds.colors.info.text
+
+-- ftd.image:
+if: { blog-content.img-1 != NULL }
+src: $blog-content.img-1
+
+-- ftd.image:
+if: { blog-content.img-2 != NULL }
+src: $blog-content.img-2
 
 -- end: ds.column
 
 -- end: blog-content
 
 
-
-
-
-
-
-
--- component blog-images:
-image.image-list list image:
-
--- ds.column:
-align-content: left
-
--- ftd.image:
-for: $obj in $blog-images.image
-src: $obj.src
-max-width: fill-container
-
--- end: ds.column
-
--- end: blog-images

@@ -1,0 +1,47 @@
+-- import: fifthtry.github.io/today-has-been-ui/components/page as p
+-- import: fifthtry.github.io/today-has-been-ui/components/tabs as tab
+-- import: fifthtry.github.io/today-has-been-ui/components/blog-post as blog
+-- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
+-- import: fifthtry.github.io/today-has-been-ui/storybook/dashboard as dashboard
+
+-- component page:
+ud.user-data user-data:
+
+-- p.page: Today Has Been
+user-data: $page.user-data
+
+-- ds.section-column:
+spacing: $ds.spaces.vertical-gap.large
+
+-- ds.tab-button:
+cta-text-1: Older
+cta-text-2: Random
+cta-text-3: Newer
+cta-link-1: storybook/dashboard/
+cta-link-2: storybook/dashboard/
+cta-link-3: storybook/dashboard/
+
+-- blog.blog: Friday, Apr 13, 2012
+
+-- blog.blog-content:
+time: 8:05 pm
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud Lorem ipsum dolor sit amet
+
+-- blog.blog-content:
+time: 8:06 pm
+img-1: $assets.files.assets.image.jpg
+img-2: $assets.files.assets.images.png
+
+Lorem ipsum
+
+-- end: blog.blog
+
+-- end: ds.section-column
+
+-- end: p.page
+
+-- end: page
+

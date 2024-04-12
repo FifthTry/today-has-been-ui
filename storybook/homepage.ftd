@@ -1,6 +1,6 @@
 -- import: fifthtry.github.io/today-has-been-ui/page/homepage
 -- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
--- import: fifthtry.github.io/today-has-been-ui/scenarios/john-doe
+-- import: fifthtry.github.io/today-has-been-ui/storybook/john-doe
 
 -- homepage.page:
 user-data: $john-doe.anon
