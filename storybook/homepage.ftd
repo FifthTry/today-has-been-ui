@@ -4,3 +4,4 @@
 
 -- homepage.page:
 user-data: $john-doe.anon
+whatsapp-link: /storybook/homepage/

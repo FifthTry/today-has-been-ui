@@ -3,6 +3,7 @@
 -- import: fifthtry.github.io/today-has-been-ui/components/blog-post as blog
 -- import: fifthtry.github.io/today-has-been-ui/record/user-data as ud
 -- import: fifthtry.github.io/today-has-been-ui/storybook/dashboard as dashboard
+-- import: fastn-community.github.io/design-system/record as r
 
 -- component page:
 ud.user-data user-data:
@@ -14,12 +15,7 @@ user-data: $page.user-data
 spacing: $ds.spaces.vertical-gap.large
 
 -- ds.tab-button:
-cta-text-1: Older
-cta-text-2: Random
-cta-text-3: Newer
-cta-link-1: storybook/dashboard/
-cta-link-2: storybook/dashboard/
-cta-link-3: storybook/dashboard/
+tab: $tab-list
 
 -- blog.blog: Friday, Apr 13, 2012
 
@@ -45,3 +41,26 @@ Lorem ipsum
 
 -- end: page
 
+
+
+-- r.tab-button list tab-list:
+
+-- r.tab-button:
+cta-text: Older
+cta-link: /storybook/dashboard/
+index: 1
+active: false
+
+-- r.tab-button:
+cta-text: Random
+cta-link: /storybook/dashboard/
+index: 2
+active: false
+
+-- r.tab-button:
+cta-text: Newer
+cta-link: /storybook/dashboard/
+index: 3
+active: false
+
+-- end: tab-list

@@ -3,6 +3,7 @@
 
 -- component page:
 ud.user-data user-data:
+string whatsapp-link:
 
 -- p.page: Today Has Been
 user-data: $page.user-data
@@ -31,7 +32,7 @@ random entry from the past - right there in WhatsApp!
 -- ds.column:
 
 -- ds.secondary-button: Say "Hi" on WhatsApp
-link: storybook/homepage/
+link: $page.whatsapp-link
 size: large
 
 -- ds.heading-small: Pricing
